@@ -1,0 +1,135 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  position: fixed;
+  display:flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  border-bottom: 1px solid black;
+  width: 100%;
+  background-color: white;
+}
+
+.header h3 {
+  padding: 0px 40px;
+  display: flex;
+  width: 600px;
+}
+
+.logotitle {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  padding-left: 30px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  padding: 0px 10px;
+  color: black;
+}
+
+.main {
+  display: flex;
+  font-size: 40px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#large {
+  width: 630px;
+}
+
+#medium {
+  width: 300px;
+}
+
+#small {
+  width: 240px;
+}
+
+#tunatitle {
+  background-image: url('../images/mainstory.png');
+  height: 300px;
+  display: flex;
+}
+
+#earth {
+  background-image: url("../images/fallseason.png");
+  height: 300px;
+  display: flex;
+  background-repeat: repeat;
+  width: 100%;
+  justify-content: center;
+}
+
+#cameras {
+  background-image: url("../images/hipstercameraman.png");
+  height: 300px;
+  display: flex;
+  background-repeat: repeat;
+  width: 100%;
+  justify-content: center;
+}
+
+#catstitle {
+  background-image: url("../images/catceo.png");
+  height: 300px;
+  display: flex;
+  background-repeat: repeat;
+  width: 100%;
+  justify-content: center;
+}
+
+.imageonly {
+  background-image: url("../images/cookie.png");
+  height: 300px;
+  display: flex;
+  background-repeat: repeat;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.imagetext#tunatitle {
+  font-size: 40px;
+}
+
+.imagetext {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.storytext {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/* This will be removed*/
+div {
+  border: 1px solid black;
+}
