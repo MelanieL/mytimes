@@ -35,6 +35,7 @@ nav {
   width: 100%;
   justify-content: flex-end;
   align-items: center;
+  padding-right: 20px;
 }
 
 nav a {
@@ -79,7 +80,7 @@ nav a {
   background-image: url("../images/fallseason.png");
   height: 300px;
   display: flex;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   justify-content: center;
   width: 50%;
 }
@@ -88,7 +89,7 @@ nav a {
   background-image: url("../images/hipstercameraman.png");
   height: 300px;
   display: flex;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   justify-content: center;
   width: 50%;
 }
@@ -130,6 +131,7 @@ ul {
   margin: 0px;
   display: flex;
   flex-direction: column;
+  border-top: 1px solid black;
 }
 
 #bites {
@@ -139,7 +141,6 @@ ul {
 li {
   display: flex;
   align-items: center;
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
   list-style: none;
   padding: 10px 10px;
@@ -149,7 +150,7 @@ li {
   background-image: url("../images/catceo.png");
   height: 300px;
   display: flex;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   width: 100%;
   justify-content: center;
 }
@@ -158,7 +159,7 @@ li {
   background-image: url("../images/cookie.png");
   height: 300px;
   display: flex;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   width: 100%;
   justify-content: center;
 }
@@ -188,6 +189,39 @@ li {
   display: inline-flex;
 }
 
-div {
-  border: 1px solid red;
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footertopline {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footertopline a {
+  padding: 0px 10px;
+  color: black;
+}
+
+.footertopline a:visited {
+  color: black;
+}
+
+.footertopline h4 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: 2px solid white;
 }
