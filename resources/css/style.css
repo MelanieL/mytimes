@@ -80,8 +80,8 @@ nav a {
   height: 300px;
   display: flex;
   background-repeat: repeat;
-  width: 100%;
   justify-content: center;
+  width: 50%;
 }
 
 #cameras {
@@ -89,8 +89,60 @@ nav a {
   height: 300px;
   display: flex;
   background-repeat: repeat;
-  width: 100%;
   justify-content: center;
+  width: 50%;
+}
+
+.undertuna {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.storybox {
+  display: inline-flex;
+  width: 100%;
+  margin: 10px 10px;
+}
+
+.imagebox {
+  display: inline-flex;
+  width: 100%;
+  margin: 10px 10px;
+}
+
+.imagetext,.storytext  {
+  margin: 0px 10px;
+}
+
+.newsbitestitle {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  width: 240px;
+  padding-left: 0px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+#bites {
+  margin: 0px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  list-style: none;
+  padding: 10px 10px;
 }
 
 #catstitle {
@@ -111,6 +163,9 @@ nav a {
   justify-content: center;
 }
 
+.fourboxes {
+  width: 50%;
+}
 
 .imagetext#tunatitle {
   font-size: 40px;
@@ -129,7 +184,10 @@ nav a {
   color: black;
 }
 
-/* This will be removed*/
+.undertune {
+  display: inline-flex;
+}
+
 div {
-  border: 1px solid black;
+  border: 1px solid red;
 }
